@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+}
+
+.globalContainer {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    bottom: 75px;
+    padding-left: 70px; 
+    background-color: rgba(255,255,255,0.3);
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.leftColumn {
+    width: 30%;
+    display: inherit;
+}
+
+.imgColumn {
+    width: 70%;
+    object-fit: contain;
+    display: inline;
+}
+
+.nameEmilia {
+    display: inherit;
+    height: fit-content;
+    align-self: center;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-left: 70px;
+}
+
+.imgColumn img {
+    width: 100%;
+}
+
+.links {
+    margin-top: 25px;
+    height: fit-content;
+    padding-left: 70px;
+}
+
+.links ul {
+    margin: 10px 0px 4px;
+    display: inherit;
+    padding: 0px;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.links li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: inherit;
+}
+
+

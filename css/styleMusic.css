@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    
+}
+
+.globalContainer {
+    width: 90%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header {
+    display: inherit;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    height: 140px;
+    top: 40px;
+    background-image: url(../img/emilia-music-top.jpg);
+    background-repeat: round;
+    justify-content: center;
+}
+
+.links {
+    padding-right: 5px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255,255,255,0.4)
+}
+
+.links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    /* list-style-type: decimal-leading-zero; */
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.links li {
+    list-style: none;
+    /* list-style-type: decimal-leading-zero; */
+}
+
+.iconosRedes {
+    padding-right: 10px;
+}
+
+.iconosRedes a {
+    color: black;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.linksDirect {
+    display: inherit;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.linksDirect a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+
+.album {
+    width: 70%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.album img {
+    width: 100%;
+}
+
+.linkAlbum {
+    
+}
+
+.album li {
+    list-style-type: decimal-leading-zero;
+}
+
+.album a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-weight: bold; 
+    margin: 0 0px 0px 40px;
+}
+
+.firstVideo {
+    font-family: "Open Sans", sans-serif;
+    width: 70%;
+}
+
+.firstVideo a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-weight: bold; 
+    margin: 0 0px 0px 40px;
+}
+
+.firstVideo p {
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+.secondVideo {
+    font-family: "Open Sans", sans-serif;
+    width: 70%; 
+}
+
+.secondVideo a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-weight: bold; 
+    margin: 0 0px 0px 40px;
+}
+
+.secondVideo p {
+    font-weight: bold; 
+    font-size: 12px;
+}
